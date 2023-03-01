@@ -1,0 +1,27 @@
+<style type="text/css">
+/* Required for proper centering */
+html, body{
+    height:100vh;
+    width:100vw;
+}
+</style>
+
+<!-- Outer container, full page width and height, red border -->
+<div class="container-fluid d-flex justify-content-center align-items-center" style="height:100vh; overflow:hidden; border: 2px solid green">
+
+<!-- Inner row, half the width and height, centered, blue border -->
+<div class="row text-center d-flex align-items-center" style="overflow:hidden; width:75vw; height:75vh; border: 1px solid red">
+
+<!-- Innermost text, wraps automatically, automatically centered -->
+<h1>Morfame Casino - BlueJack Room</h1>
+<h2>BlueJack Table Rules</h2>
+<h5>Minimum bet £5</h5>
+<h5>Maximum bet £200</h5>
+<h5>No Doubling</h5>
+<h5>No Splitting</h5>
+<h5>No Surrendering</h5>
+<h5>No 5 Card Tricks</h5>
+
+<h4><%= link_to "Let's play BlueJack", root_path %></h4>
+<h3><%= link_to "Morfame Casino", root_path %></h3>
+

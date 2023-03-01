@@ -1,0 +1,2 @@
+module BluejackHelper
+end
